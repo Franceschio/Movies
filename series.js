@@ -11,8 +11,6 @@ import {
   popular,
   topRated,
   on_the_air,
-  watchlist,
-  toWatch,
 } from "./utils.js";
 
 //Get con creazione card
