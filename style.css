@@ -77,10 +77,6 @@ img {
   height: 38;
 }
 
-.choose {
-  transform: translateX(13px);
-}
-
 .choose ul {
   height: 20px;
   width: 20px;

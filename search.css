@@ -33,7 +33,6 @@ body {
 .barraRicerca {
   display: flex;
   align-items: center;
-  gap: 10px;
   height: 25px;
 }
 
@@ -46,26 +45,32 @@ svg {
   height: 100%;
   width: 200px;
   padding: 10px;
-  border: 1px solid rgb(1, 1, 146);
+  border: 1px solid #010192;
   border-radius: 5px;
+  border-right: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 #searchBtn {
-  width: 27px;
+  width: 28px;
   height: 100%;
-  border-radius: 100%;
-  border: none;
+  border-radius: 5px;
+  border: 1px solid #010192;
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
   padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(1, 1, 146);
+  background-color: #010192;
   cursor: pointer;
   transition: 0.5s;
 }
 
 #searchBtn:hover {
-  background-color: rgb(50, 50, 255);
+  background-color: #3232ff;
 }
 
 #searchBtn:active {
@@ -73,7 +78,7 @@ svg {
 }
 
 header {
-  background-color: rgb(158, 23, 243);
+  background-color: #9e17f3;
   width: 100%;
   position: fixed;
   top: 0;
